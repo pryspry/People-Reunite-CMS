@@ -1,0 +1,15 @@
+---
+application:
+  name: "people-reunite-cms"
+  project: "people-reunite-cms"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "peoplereunite"
+  version: "11"
+routers:
+- name: "main-people-reunite-cms"
+  routes:
+  - application_name: "people-reunite-cms"
+    paths:
+    - "/*"
